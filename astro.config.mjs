@@ -31,8 +31,8 @@ const oklchToHex = (str) => {
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://fuwari.vercel.app/",
-  base: "/",
+  site: "https://wataruxun.githun.io",
+  base: "blog",
   trailingSlash: "always",
   integrations: [
     tailwind(),
@@ -111,7 +111,7 @@ export default defineConfig({
   vite: {
     build: {
       rollupOptions: {
-        onwarn(warning, warn) {
+        onwrn(warning, warn) {
           // temporarily suppress this warning
           if (warning.message.includes("is dynamically imported by") && warning.message.includes("but also statically imported by")) {
             return;

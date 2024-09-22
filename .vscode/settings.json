@@ -18,5 +18,28 @@
     "quickfix.biome": "always",
     "source.organizeImports.biome": "always"
   },
-  "frontMatter.dashboard.openOnStart": false
+  "frontMatter.dashboard.openOnStart": false,
+  "cSpell.words": [
+    "astro",
+    "astrojs",
+    "biomejs",
+    "colorjs",
+    "hastscript",
+    "iconify",
+    "imagetools",
+    "jetbrains",
+    "Katex",
+    "mdast",
+    "oklch",
+    "onwrn",
+    "overlayscrollbars",
+    "pagefind",
+    "photoswipe",
+    "rehype",
+    "Roboto",
+    "swup",
+    "tailwindcss",
+    "tsconfigs",
+    "Wataru"
+  ]
 }
